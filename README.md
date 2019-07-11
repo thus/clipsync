@@ -55,3 +55,9 @@ The following remote file systems has been tested so far:
 * NFS (works)
 * CIFS version 3.0 (works) - could not get version 2.1 to work
 * SSHFS (doesn't work) - not even with workaround=rename
+
+Clipboard
+---------
+
+Clipsync also uses libclipboard (https://github.com/jtanx/libclipboard)
+for reading data from and writing data to the local clipboards.
