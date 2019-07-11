@@ -10,6 +10,7 @@ content of the clipboards, which may be passwords or other sensitive
 data, is kept secret. It also ensures that no other users tampers with
 the content of the clipboards.
 
+```
 USAGE: clipsync
 Synchronize clipboards.
 
@@ -19,20 +20,25 @@ OPTIONS:
 	-L <level> : log level (debug/info/notice/warning/error)
 	-p <pw>    : password used to encrypt clipboard data
 	-h         : print this help
+```
 
 Installation
 ------------
 
 Clipsync depends on libsodium for encryption/decryption:
 
+```bash
 $ apt install libsodium-dev
+```
 
 Cmake is used, so compile and install like this:
 
+```bash
 $ mkdir build
 $ cmake ..
 $ make
 $ make install
+```
 
 Remote File Systems
 -------------------
