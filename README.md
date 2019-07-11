@@ -1,7 +1,7 @@
 Clipsync
 ========
 
-Synchronize clipboards on multiple computers using files on a remote
+Synchronize clipboards between multiple computers using files on a remote
 file system.
 
 The clipboards are encrypted before written to files to enable use on
