@@ -59,5 +59,5 @@ The following remote file systems has been tested so far:
 Clipboard
 ---------
 
-Clipsync also uses libclipboard (https://github.com/jtanx/libclipboard)
-for reading data from and writing data to the local clipboards.
+Clipsync uses libclipboard (https://github.com/jtanx/libclipboard) for
+reading data from and writing data to the local clipboards.
