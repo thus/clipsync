@@ -144,7 +144,7 @@ int main(int argc, char **argv)
     log_info("Starting clipsync\n");
 
     if (passwd == NULL) {
-        char *sync_pw = getenv("SYNC_PW");
+        char *sync_pw = getenv("SYNC_PASSWORD");
 	if (sync_pw == NULL) {
             log_error("No encryption password (-p <pw>) specified. Exiting.\n");
 	    signal_failure();
