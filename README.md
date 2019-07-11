@@ -22,6 +22,9 @@ OPTIONS:
 	-h         : print this help
 ```
 
+It is also possible to use the environment variable 'SYNC_PASSWORD' to
+provide the encryption password to clipsync.
+
 Installation
 ------------
 
