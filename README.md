@@ -25,6 +25,12 @@ OPTIONS:
 It is also possible to use the environment variable 'SYNC_PASSWORD' to
 provide the encryption password to clipsync.
 
+Disclaimer
+----------
+
+I don't actually use this project anymore, but it was a useful way of
+syncing clipboards on air gapped systems with shared storage.
+
 Installation
 ------------
 
